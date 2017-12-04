@@ -1,4 +1,13 @@
 //353 Group 4 Final Project
+//Created by Brad Bieselin, Caleb Rodabaugh, Vince Seeraj, and Thupten Choephel
+
+/*
+Simon Says is a well-known game that is both quick and challenging to play.
+To beat our game, make it to level 20!
+This game includes 3 pushbuttons, each with its own LED. Each level, you are
+required to copy what "Simon Says" and the game will gradually become more difficult.
+*/
+
 
 int randomSequence[20]; //An array to hold the randomized sequence
 int input[20]; //An array to hold user's entry
