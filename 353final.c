@@ -50,15 +50,15 @@ void play()
         digitalWrite(randomSequence[i], HIGH); //Sets the output of whatever led is read from the array as high
         if (randomSequence[i] == 11) //If the blue LED is lit up
         {
-            tone(buzzer, 500); //Plays a sound unique to blue
+            tone(buzzer, 500); //Plays a sound unique to the blue LED
         }
         if (randomSequence[i] == 12) //If the red LED is lit up
         {
-            tone(buzzer, 400); //Plays a sound unique to red
+            tone(buzzer, 400); //Plays a sound unique to the red LED
         }
         if (randomSequence[i] == 13) //If the green LED is lit up
         {
-            tone(buzzer, 300); //Plays a sound unique to green
+            tone(buzzer, 300); //Plays a sound unique to the green LED
         }
         delay(1000); //Waits 1 second, so it shows the light and plays the sound for a second
         digitalWrite(randomSequence[i], LOW); //Sets LED output as low
