@@ -77,9 +77,9 @@ void readInput()
         flag = 0; //Sets flag as 0
         while(flag == 0) //A loop that runs if the flag is 0, will keep looping until a button is pressed
         {
-            if (digitalRead(A0) == LOW) //If the green LEDs button is pressed
+            if (digitalRead(A0) == LOW) //If the green LED's button is pressed
             {
-                tone(buzzer, 300); //Plays the green LEDs sound
+                tone(buzzer, 300); //Plays the green LED's sound
                 digitalWrite(13, HIGH); //Lights up the green LED
                 input[i] = 13; //Sets the user input array
                 flag = 1; //Sets the flag to show the button has been pressed
@@ -93,9 +93,9 @@ void readInput()
                 digitalWrite(13, LOW); //Turns the LED off
             }
             
-            if (digitalRead(A1) == LOW) //If the red LEDs button is pressed
+            if (digitalRead(A1) == LOW) //If the red LED's button is pressed
             {
-                tone(buzzer, 400); //Plays the red LEDs sound
+                tone(buzzer, 400); //Plays the red LED's sound
                 digitalWrite(12, HIGH); //Lights up the red LED
                 input[i] = 12; //Sets the user input array
                 flag = 1; //Sets the flag to show the button has been pressed
@@ -109,9 +109,9 @@ void readInput()
                 digitalWrite(12, LOW); //Turns the LED off
             }
             
-            if (digitalRead(A2) == LOW) //If the blue LEDs button is pressed
+            if (digitalRead(A2) == LOW) //If the blue LED's button is pressed
             {
-                tone(buzzer, 500); //Plays the blue LEDs sound
+                tone(buzzer, 500); //Plays the blue LED's sound
                 digitalWrite(11, HIGH); //Lights up the blue LED
                 input[i] = 11; //Sets the user input array
                 flag = 1; //Sets the flag to show the button has been pressed
